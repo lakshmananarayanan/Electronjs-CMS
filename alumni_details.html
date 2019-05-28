@@ -1,0 +1,48 @@
+<html>
+<head><title>Almuni</title>
+    <script src="E:/Projects/alumni_show.js"></script>
+	<link rel="stylesheet" type="text/css" href="style_home1.css">
+     <script type="text/javascript">
+        const urlParams = new URLSearchParams(window.location.search);
+const it = urlParams.get('it');
+showd(it)
+    </script>
+</head>
+<body onload="showd()"><font face="arial">
+	<div id="header">
+    	<img src="SVNC Logo1.png" class="login_avatar"><h1>N.M.S.S.V.N COLLEGE<div id="lg" class="menu"><ul id="u1"><li><img src="images.png" class="account"><div id="lg1">Account</div><ul><a href="Login_form.html"><li>Sign Out</li></a><li>Edit</li></ul></li></ul></div></h1>
+        <h4><div id="hd1">
+            <a link href="home1.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a link href="Faculty.html">&nbsp;&nbsp;FACULTY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a link href="lab_stock.html">LAB STOCK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a link href="alumni.html">ALUMNI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a link href="#"></a></div></h4>
+    </div><br><br><br>
+    <center><h1>Alumni Detail</h1>
+        <br><br>
+        <div id="showd">
+            <table border="1"><tr><td>
+            <label>Id</label></td><td><label id="sid"></label></td></tr>
+            <tr><td><label>Name</label></td><td><label id="sname"></label></td></tr>
+            <tr><td><label>Father's Name</label></td><td><label id="fname"></label></td></tr>
+            <tr><td><label>Gender</label></td><td><label id="gd"></label></td></tr>
+            <tr><td><label>DOB</label></td><td><label id="dob"></label></td></tr>
+            <tr><td><label>Age</label></td><td><label id="age"></label></td></tr>
+            <tr><td><label>Blood Group</label></td><td><label id="bg"></label></td></tr>
+            <tr><td><label>Mobile No</label></td><td><label id="mn"></label></td></tr>
+            <tr><td><label>Address</label></td><td><label id="addrs"></label></td></tr>
+            <tr><td><label>E-Mail</label></td><td><label id="email"></label></td></tr></table>
+            <label>Qualification</label><label id="qual"></label><br>
+            <table border="1" color="black" id="qual_tbl">
+                <tr>
+                    <th>Class/Course</th><th>Institution</th><th>Board Of Study</th><th>Year Of Passing</th><th>Percentage</th>
+                </tr>
+                  </table>
+            <table border="1">
+            <tr><td><label>Department</label></td><td><label id="dept"></label></td></tr>
+            <tr><td><label>Batch</label></td><td><label id="batch"></label></td></tr></table>
+        </div>
+</center>
+</font>
+</body>
+</html>

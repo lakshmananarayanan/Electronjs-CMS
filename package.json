@@ -1,0 +1,15 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "icon": "E:/Projects/SVNCLogo.png",
+  "description": "College Management System",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "LAKSH18",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^3.0.10"
+  }
+}

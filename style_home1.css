@@ -1,0 +1,327 @@
+a:link{
+    color:white;
+    text-decoration: none;
+    outline: none;
+}
+#lmenu{
+    width:800;
+    background-color: blue;
+}
+
+#sem{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    float: right;
+    margin-right:500px;
+    margin-top: 60px;  
+}
+#showd{
+    padding:1;
+    height: auto;
+    width: 600;
+    background-color: blue;
+    color:white;
+}
+#showd table{
+    color:white;
+}
+#lg{
+    border-radius:30px;
+    background-color: darkblue;
+    padding:1;
+    width:130px;
+    float:right;
+    height: 40px;
+    margin-top: -40;
+}
+#u1{
+    margin-top: -15;
+    margin-left: -20;
+}
+.n_o{
+    float:right;
+}
+#new{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+#sd{
+    float: right;
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+}
+#sd:hover{
+    background-color: white;
+    color:black;
+}
+#le{
+    float: right;
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+}
+#le:hover{
+    background-color: white;
+    color:black;
+}
+#bdm{
+    float: right;
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+}
+#bdm:hover{
+    background-color: white;
+    color:black;
+}
+#sys_save{
+     padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    float: right;
+    margin-right:500px;
+    margin-left: 300;
+    margin-top: 10px;
+}
+#sys_save:hover{
+    color:black;
+    background-color: white;
+}
+#sys_clear{
+     padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    float: right;
+    margin-right:300px;
+    margin-left: 300;
+    margin-top: -30px;
+}
+#sys_clear:hover{
+    color:black;
+    background-color: white;
+}
+#details{
+ padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    float: right;
+    margin-right:500px;
+    margin-left: 350;
+    margin-top: 10px;
+}
+
+#save{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    float: right;
+    margin-right:500px;
+    margin-left: 300;
+    margin-top: 60px;
+}
+#back1{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+#save1{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+   
+}
+#clear1{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius:10px;
+    
+}
+#clear{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    float: right;
+    margin-right:380px;
+    margin-top: -30px;
+}
+#n1{
+    margin-left: 10px;
+    text-align:center;
+    float: left;
+    width:400;
+    padding:1;
+    background-color: blue;
+}
+#next{
+    border-radius: 10px;
+    padding:5;
+    width:70;
+    background-color: blue;
+}
+#next:hover{
+    background-color: white;
+    color:black;
+}
+#view{
+    border-radius: 10px;
+    padding:5;
+    width:70;
+    background-color: blue;
+}
+#view:hover{
+    background-color: white;
+    color:black;
+}
+#n2{
+    margin-left: 10px;
+    text-align:center;
+    float: left;
+    width:890;
+    padding:1;
+    background-color: blue;
+}
+#save:hover{
+
+    background-color: white;
+    color: black;
+}
+#save1:hover{
+    background-color: white;
+    color: black;
+}
+#new:hover{
+
+    background-color: white;
+    color: black;
+}
+#old{
+    padding:5 10;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+#old:hover{
+    background-color: white;
+    color: black;
+}
+#lg1{
+    margin-top: -25px;
+    margin-left: 30px;
+    font-size: 20px;
+    color:white;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding:30;
+}
+.menu ul ul{
+    direction:bottom;
+    transition: all 0.3s;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    bottom:90%;
+    top:-5;
+}
+.menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+.menu ul li{
+    font-size: 20;
+    padding:0;
+    position: relative;
+    width:110;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+#lg1:hover{
+    color:black;
+}
+#hd1{
+    float: right;
+}
+a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+a:actived{
+    color: none;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#header{
+    background-color: #000FFF;
+    padding:30px;
+}
+.login_avatar{
+    width: 120px;
+    height: 100px;
+    float: left;
+    left: calc(50% - 60px);
+}
+.account{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin-top:-10px;
+}
+#f1{
+    background-color: #000FFF;
+    padding:40px;
+    width: 400px;
+    border-radius: 10px;
+    border-top-style: groove;
+    border-top-width: 2px;
+    border-top-color: #00FFFF;
+}
+
+#bk{
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+    padding: 10px;
+    float: center;
+}
+#head{
+    padding:50px;
+    color:black;
+    background-color:#000FFF;
+}
+#t1{
+    float:left;
+}
+#sem_mark{
+    margin-left: 240px;
+    text-align:center;
+    width:887;
+    padding:1;
+    background-color: blue;
+}
